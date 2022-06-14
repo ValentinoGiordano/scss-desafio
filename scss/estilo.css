@@ -1,0 +1,50 @@
+/* SCSS EN INDEX */
+body {
+  background-color: #292929;
+  overflow-x: hidden;
+}
+
+nav .sites {
+  background-color: white;
+  border-radius: 5px 5px 5px 5px;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+nav .sites:hover {
+  background: #a5bcc4;
+}
+
+section h1 {
+  position: relative;
+  top: 400px;
+  left: 400px;
+  color: beige;
+  font-family: 'Playfair Display SC', serif;
+  font-size: 50px;
+}
+
+section .FotoInicio {
+  padding-left: 140px;
+  position: relative;
+  bottom: 50px;
+  z-index: -1;
+}
+
+footer h2 {
+  color: white;
+}
+
+footer .CASH {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+footer .footerContent {
+  list-style-type: none;
+  text-decoration: none;
+}
+/* SCSS EN INDEX */
+/*# sourceMappingURL=estilo.css.map */

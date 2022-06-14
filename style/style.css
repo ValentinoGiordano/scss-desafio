@@ -1,0 +1,186 @@
+.map{
+    padding-left: 320px;
+}
+
+.us{
+    text-align: center;
+}
+
+.elab{
+    position: relative;
+    left: 160px;
+}
+
+.pasarela{
+    position: relative;
+    left: 350px;
+    top: 30px;
+    z-index: -1;
+}
+
+.titulo{
+    color: black;
+    padding-bottom: 30px;
+    position: relative;
+    bottom: 140px;
+    right: 10px;
+    font-size: x-large;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+/* products */
+
+.catalog{
+    padding: auto;
+    margin: auto;
+    color: white;
+    width: 20vw;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* products end */
+
+.footer, h2{
+    color: white ;
+}
+
+
+#pago{
+    color:black;
+    background-color:whitesmoke;
+    text-align: center;
+    padding-right: 35px;
+    list-style: lower-roman;
+    font-style: oblique;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+#redes, a:link{
+    color:black;
+    background-color:whitesmoke;
+    text-align: center;
+    list-style: lower-roman;
+    font-style: oblique;
+    font-size: 15px;
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+
+p{
+    color: white;
+    font-style: italic;
+    font-size: large;
+    border-style: solid;
+    border-color: white;
+    }
+
+
+#datos{
+    color: white;
+}
+
+.CASH{
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.social{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* pisando estilos de bootstrap" */
+.Cards{
+    margin: 10px auto;
+}
+
+.cardItems{
+    cursor: default;
+    overflow: hidden;
+    transition: all 0.1s ease;
+}
+
+.cardItems:hover{
+    transform: translateY(-3%);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 480px){
+    *{
+        overflow-x: hidden;
+    }
+    body{
+        background-color: black;
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+    /* home */
+    .FotoInicio{
+        width: 300px;
+        height: 300px;
+        padding-left: 0px;
+        position: relative;
+        bottom: 0px;
+        left: 90px;
+        border-radius: 5px 5px 5px 5px;
+    }
+    .index-img h1{
+        position: relative;
+        top: 0px;
+        left: 135px;
+        font-size: x-large;
+        padding-bottom: 0px;
+    }
+    /*header*/    
+    .pasarela{
+        width: 330px;
+        height: 200px;
+        position: relative;
+        top: 100px;
+        left: 75px;
+        z-index: -1;
+    }
+    .titulo{
+    color: black;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    padding-bottom: 70px;
+    font-size: large;
+    }
+    /* Products */
+    .catalog{
+        margin: 10px auto;
+        text-align: center;
+        font-size: 25px;
+    }
+    /* about us */
+    .lorem{
+        text-align: center;
+    }
+    .map{
+        padding-left: 90px;
+        width: 390px;
+    }
+    .elab{
+        width: 250px;
+        height: 250px;
+        position: relative;
+        left: 115px;
+    }
+    /* footer */
+    .footerContent{
+        list-style-type: none;
+        text-decoration: none;
+    }
+}

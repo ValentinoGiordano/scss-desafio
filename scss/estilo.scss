@@ -1,0 +1,52 @@
+$bg-claro: white;
+$bg-oscuro: black;
+$bg-gris: #292929;
+$text: beige;
+
+body{
+    background-color: $bg-gris;
+    overflow-x: hidden;
+}
+nav{
+    .sites{
+        background-color: $bg-claro;
+        border-radius: 5px 5px 5px 5px;
+        transition-property: all;
+        transition-duration: 0.3s;
+    }
+    .sites:hover{
+        background: rgb(165, 188, 196);
+    }
+}
+
+section{
+    h1{
+        position: relative;
+        top: 400px;
+        left: 400px;
+        color:$text;
+        font-family: 'Playfair Display SC', serif;
+        font-size: 50px;
+        }
+        .FotoInicio{
+            padding-left: 140px;
+            position: relative;
+            bottom: 50px;
+            z-index: -1;
+            }
+}
+
+footer{
+    h2{
+        color: $bg-claro
+    }
+    .CASH{
+        text-align:center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .footerContent{
+        list-style-type: none;
+        text-decoration: none;
+    }
+}
+
