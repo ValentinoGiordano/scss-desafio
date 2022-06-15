@@ -70,11 +70,13 @@
     padding-right: 15px;
 }
 
-
-p{
+.lorem{
+    background-color: black;
     color: white;
     font-style: italic;
     font-size: large;
+    text-align: center;
+    padding: 15px;
     border-style: solid;
     border-color: white;
     }
@@ -126,13 +128,13 @@ p{
     }
     /* home */
     .FotoInicio{
-        width: 300px;
+        width: 450px;
         height: 300px;
+        padding: 0%;
         padding-left: 0px;
         position: relative;
-        bottom: 0px;
-        left: 90px;
-        border-radius: 5px 5px 5px 5px;
+        top: 0px;
+        left: -55px;
     }
     .index-img h1{
         position: relative;
@@ -167,6 +169,7 @@ p{
     /* about us */
     .lorem{
         text-align: center;
+        padding: 20px;
     }
     .map{
         padding-left: 90px;
