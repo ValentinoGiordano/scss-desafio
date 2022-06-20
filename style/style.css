@@ -2,6 +2,12 @@
     padding-left: 320px;
 }
 
+.map2{
+    width: 70vw;
+    position: relative;
+    left: 170px;
+}
+
 .us{
     text-align: center;
 }
@@ -79,13 +85,11 @@
     padding: 15px;
     border-style: solid;
     border-color: white;
-    }
-
-
-#datos{
-    color: white;
 }
 
+.formText{
+    color: whitesmoke;
+}
 .CASH{
     text-align:center;
     font-family: 'Times New Roman', Times, serif;
@@ -185,5 +189,11 @@
     .footerContent{
         list-style-type: none;
         text-decoration: none;
+    }
+    /* contact */
+    .map2{
+        width: 300px;
+        position: relative;
+        left: 85px;
     }
 }
