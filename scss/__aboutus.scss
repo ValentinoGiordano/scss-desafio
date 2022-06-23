@@ -1,0 +1,16 @@
+div{
+    .us{
+        text-align: center;
+        color: $light-text;
+        }
+}
+.elab{
+    @include sizes(900px, 600px);
+    margin-left: 180px;
+}
+.lorem{
+    @include parrafo;
+}
+.map{
+    padding-left: 350px;
+}

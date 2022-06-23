@@ -1,0 +1,42 @@
+footer{
+    .CASH{
+        color: $light-text;
+        text-align:center;
+        font-family: 'Times New Roman', Times, serif;
+        }
+        .pago{
+            color:$dark-text;
+            background-color:whitesmoke;
+            text-align: center;
+            padding-right: 35px;
+            list-style: lower-roman;
+            font-style: oblique;
+            font-size: 15px;
+            text-decoration: none;
+            }
+            .footerContent{
+                color: $m;
+                list-style-type: none;
+                text-decoration: none;
+                }
+                .social{
+                    @extend .CASH;
+                }
+                .redes{
+                    background-color:whitesmoke;
+                    text-align: center;
+                    list-style: lower-roman;
+                    font-style: oblique;
+                    font-size: 15px;
+                    text-decoration: none;
+                    padding-right: 15px;
+                }
+                .fooText{
+                    color: $dark-text;
+                    list-style: lower-roman;
+                    font-style: oblique;
+                    font-size: 15px;
+                    text-decoration: none;
+                    padding-right: 15px;
+                }
+}

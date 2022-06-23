@@ -1,0 +1,74 @@
+@media screen and (max-width: 480px){
+    *{
+        overflow-x: hidden;
+    }
+    body{
+        background-color: $bg-oscuro;
+        max-width: 100%;
+    }
+    .pasarela{
+        margin-left: -270px;
+        width: 330px;
+        height: 200px;
+        z-index: -1;
+    }
+    .titulo{
+        color: $dark-text;
+        position: relative;
+        top: -70px;
+        padding-left: 30px;
+        padding-bottom: 40px;
+        font-size: large;
+        }
+    /* home */
+    .index-img h1{
+        position: relative;
+        top: 0px;
+        left: 135px;
+        font-size: x-large;
+        padding-bottom: 0px;
+    }
+    .FotoInicio{
+        width: 430px;
+        height: 300px;
+        padding: 0%;
+        padding-left: 0px;
+        padding-bottom: 10px;
+        position: relative;
+        top: 0px;
+        right: 45px;
+    }
+    /*header*/    
+    /* Products */
+    .catalog{
+        margin: 10px auto;
+        text-align: center;
+        font-size: 25px;
+    }
+    /* about us */
+    .lorem{
+        text-align: center;
+        padding: 20px;
+    }
+    .map{
+        padding-left: 90px;
+        width: 390px;
+    }
+    .elab{
+        width: 250px;
+        height: 250px;
+        position: relative;
+        right: 65px;
+    }
+    /* footer */
+    .footerContent{
+        list-style-type: none;
+        text-decoration: none;
+    }
+    /* contact */
+    .map2{
+        width: 300px;
+        position: relative;
+        left: 85px;
+    }
+}

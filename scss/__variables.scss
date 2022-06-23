@@ -1,0 +1,26 @@
+$bg-claro: white;
+$bg-oscuro: black;
+$bg-gris: #292929;
+$text: beige;
+$light-text: white;
+$dark-text: black;
+
+@mixin parrafo(){
+    background-color: $bg-oscuro;
+    color: white;
+    font-style: italic;
+    font-size: large;
+    text-align: center;
+    padding: 15px;
+    border-style: solid;
+    border-color: white;
+}
+@mixin sizes ($width, $height){
+    height: $height;
+    width: $width;
+}
+
+$footer:(    
+    m: rgb(8, 8, 8) 
+);
+$m: map-get($footer, m);
