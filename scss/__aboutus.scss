@@ -8,9 +8,10 @@ div{
     @include sizes(900px, 600px);
     margin-left: 180px;
 }
-.lorem{
-    @include parrafo;
-}
 .map{
     padding-left: 350px;
+}
+.accordion{
+    margin-right: 10px;
+    margin-left: 10px;
 }

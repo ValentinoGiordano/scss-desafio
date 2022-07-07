@@ -5,16 +5,6 @@ $text: beige;
 $light-text: white;
 $dark-text: black;
 
-@mixin parrafo(){
-    background-color: $bg-oscuro;
-    color: white;
-    font-style: italic;
-    font-size: large;
-    text-align: center;
-    padding: 15px;
-    border-style: solid;
-    border-color: white;
-}
 @mixin sizes ($width, $height){
     height: $height;
     width: $width;

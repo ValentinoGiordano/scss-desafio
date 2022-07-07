@@ -1,11 +1,11 @@
 nav{
     .sites{
-        background-color: $bg-claro;
+        background-color: #f8f9fa;
         border-radius: 5px 5px 5px 5px;
         transition-property: all;
         transition-duration: 0.3s;
     }
     .sites:hover{
-        background: rgb(165, 188, 196);
+        background: rgb(192, 192, 193);
     }
 }

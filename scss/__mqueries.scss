@@ -6,16 +6,13 @@
         background-color: $bg-oscuro;
         max-width: 100%;
     }
-    .pasarela{
-        margin-left: -270px;
-        width: 330px;
-        height: 200px;
+    .banner{
         z-index: -1;
     }
     .titulo{
         color: $dark-text;
         position: relative;
-        top: -70px;
+        top: -110px;
         padding-left: 30px;
         padding-bottom: 40px;
         font-size: large;
@@ -72,3 +69,4 @@
         left: 85px;
     }
 }
+
